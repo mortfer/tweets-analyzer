@@ -13,7 +13,7 @@ import funciones as F
 from collections import OrderedDict
 from st_aggrid import AgGrid
 from st_aggrid.grid_options_builder import GridOptionsBuilder
-plt.style.use('seaborn')
+
 # primary color theme: #7295E8
 st.set_page_config(page_title="TFM_Marc",layout="wide",initial_sidebar_state="expanded")
 

@@ -4,3 +4,4 @@ streamlit==0.87.0
 scikit-learn==0.24.2
 streamlit-aggrid==0.2.1
 plotly==5.3.1
+streamlit-plotly-events==0.0.6
