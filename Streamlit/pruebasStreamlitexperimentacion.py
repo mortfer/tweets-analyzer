@@ -7,7 +7,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import json
 import copy
-import matplotlib.pyplot as plt
 from streamlit_plotly_events import plotly_events
 import time
 import funciones as F
