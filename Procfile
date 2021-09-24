@@ -1,0 +1,1 @@
+web: cd Streamlit && sh setup.sh && streamlit run pruebasStreamlitexperimentacion.py
