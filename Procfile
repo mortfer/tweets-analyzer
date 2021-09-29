@@ -1,1 +1,1 @@
-web: cd Streamlit/ && sh setup.sh && streamlit run pruebasStreamlitexperimentacion.py
+web: cd app/ && sh setup.sh && streamlit run appGithub.py
