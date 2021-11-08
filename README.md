@@ -1,5 +1,6 @@
 # App for analyzing tweets through topic modeling and sentiment analysis.
 
+
 This repository contains the code of my final master's thesis. This project aims to provide a pipeline (from extracting tweets to designing an interactive app) to explore a group of tweets 
 with graphical widgets and machine learning techniques such as topic modeling and sentiment analysis.
 
@@ -21,13 +22,15 @@ In this project I use two different group of tweets: tweets from @IbaiLlanos and
  
 ## Using the code
 
-Notebooks for sentiment classification are run once to train a model and use it for every group of tweets.
-GPU is highly recommended when computing embeddings and creating topics
-* First, from data/raw_data folder extract tweets with snscrape's commands. Example used:
+Notebooks for sentiment classification in dev/sentiment_model are run once to train a model and use it for every group of tweets.
+GPU is highly recommended when computing embeddings and creating topics <br>
+Whenever we want to analyze a new group of tweets: 
+* First, from data/raw_data folder extract tweets with snscrape's commands. Example used: <br>
 `snscrape --jsonl --progress twitter-search "from:IbaiLlanos -filter:replies AND -filter:quote>IbaiLlanos.json`
-* Run main.py in dev/ for preprocessing, embeddings, infering sentiment and saving results
+* Run main.py in dev/ for preprocessing, embeddings, infering sentiment and saving results <br>
 `python main.py --data_name IbaiLlanos`
-* Run main_opics.py in dev/ for topics creation. Results saved in data/topic_data
+* Run main_opics.py in dev/ for topics creation. Results saved in data/topic_data <br>
 `python main_topics.py --data_name IbaiLlanos`
-*Finally, choose which data and script to use in app/app.py and run it
+*Finally, choose which data and script to use in app/app.py and run it <br>
 `streamlit run app.py`
+
