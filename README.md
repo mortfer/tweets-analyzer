@@ -9,6 +9,6 @@ This pipeline consists in:
 
 App in spanish deployed in https://tfm-marc.herokuapp.com/
 
-##Repository structure
+## Repository structure
 
-##Using the code
+## Using the code
