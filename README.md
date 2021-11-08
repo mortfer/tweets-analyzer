@@ -6,13 +6,13 @@ with graphical widgets and machine learning techniques such as topic modeling an
 
 This pipeline consists in:
 * Extracting tweets from Twitter with [snscrape](https://github.com/JustAnotherArchivist/snscrape)
-* Preprocessing tweets and their metadata with well-known libraries such as pandas(https://pandas.pydata.org/) or spacy(https://spacy.io/)
+* Preprocessing tweets and their metadata with well-known libraries such as [pandas](https://pandas.pydata.org/) or [spacy](https://spacy.io/)
 * Compute tweets embeddings with [sentence transformers](https://www.sbert.net/)
 * Train a sentiment analysis model with labeled datasets  
 * Clustering tweets and assigning them topics with [contextualized topic modeling](https://github.com/MilaNLProc/contextualized-topic-models)
 * Build an interactive app with [streamlit](https://streamlit.io/) and [plotly](https://plotly.com/python/)
 
-In this project I use two different group of tweets: tweets from @IbaiLlanos and spanish tweets with the keyword 'netflix'.
+In this project I use two different group of tweets: tweets from @IbaiLlanos and spanish tweets with the keyword 'netflix'. <br>
 App in spanish deployed on https://tfm-marc.herokuapp.com/
 
 ## Repository structure
