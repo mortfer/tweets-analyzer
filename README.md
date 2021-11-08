@@ -1,6 +1,5 @@
 # App for analyzing tweets through topic modeling and sentiment analysis.
 
-
 This repository contains the code of my final master's thesis. This project aims to provide a pipeline (from extracting tweets to designing an interactive app) to explore a group of tweets 
 with graphical widgets and machine learning techniques such as topic modeling and sentiment analysis.
 
@@ -31,6 +30,7 @@ Whenever we want to analyze a new group of tweets:
 `python main.py --data_name IbaiLlanos`
 * Run main_opics.py in dev/ for topics creation. Results saved in data/topic_data <br>
 `python main_topics.py --data_name IbaiLlanos`
-*Finally, choose which data and script to use in app/app.py and run it <br>
+* Finally, choose which data and script to use in app/app.py and run it <br>
 `streamlit run app.py`
+
 
