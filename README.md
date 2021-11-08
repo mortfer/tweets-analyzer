@@ -13,7 +13,7 @@ This pipeline consists in:
 * Build an interactive app with [streamlit](https://streamlit.io/) and [plotly](https://plotly.com/python/)
 
 In this project I use two different group of tweets: tweets from @IbaiLlanos and spanish tweets with the keyword 'netflix'. <br>
-App in spanish deployed on https://tfm-marc.herokuapp.com/
+**App in spanish deployed on** https://tfm-marc.herokuapp.com/
 
 ## Repository structure
 * **app** contains scripts to deploy streamlit's app in Heroku
@@ -21,4 +21,4 @@ App in spanish deployed on https://tfm-marc.herokuapp.com/
 * **dev** contains scripts for local development: preprocessing, creating embeddings, training sentiment model and topic modeling
  
 ## Using the code
-> pruebas
+`pruebas`
