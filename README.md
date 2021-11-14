@@ -24,7 +24,7 @@ Notebooks for sentiment classification in dev/sentiment_model are run once to tr
 GPU is highly recommended when computing embeddings and creating topics <br>
 Whenever we want to analyze a new group of tweets: 
 * First, from data/raw_data folder extract tweets with snscrape's commands. Example used: <br>
-`snscrape --jsonl --progress twitter-search "from:IbaiLlanos -filter:replies AND -filter:quote>IbaiLlanos.json`
+`snscrape --jsonl --progress twitter-search "from:IbaiLlanos -filter:replies AND -filter:quote" > IbaiLlanos.json`
 * Run main.py in dev/ for preprocessing, embeddings, infering sentiment and saving results <br>
 `python main.py --data_name IbaiLlanos`
 * Run main_opics.py in dev/ for topics creation. Results saved in data/topic_data <br>
