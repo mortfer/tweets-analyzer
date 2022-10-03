@@ -12,7 +12,8 @@ This pipeline consists in:
 
 In this project I use two different group of tweets: tweets from @IbaiLlanos and spanish tweets with the keyword 'netflix'. <br>
 **App in spanish deployed on** https://tfm-marc.herokuapp.com/
-![example_image](Ibai_example.png)
+
+![example_image](Ibai_example.png | width=300)
 
 ## Repository structure
 * **app** contains scripts to deploy streamlit's app in Heroku
