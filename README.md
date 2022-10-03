@@ -1,6 +1,6 @@
 # App for analyzing tweets through topic modeling and sentiment analysis.
 
-This repository contains the code of my Master’s Degree Final Project. This project aims to provide a pipeline (from extracting tweets to designing an interactive app) to explore a group of tweets with graphical widgets and machine learning techniques such as topic modeling and sentiment analysis.
+This repository contains the code of my Master’s Degree Final Project. This project aims to provide a pipeline (from extracting tweets to designing an interactive app) to explore a group of tweets with visual widgets and machine learning techniques such as topic modeling and sentiment analysis.
 
 This pipeline consists in:
 * Extracting tweets from Twitter with [snscrape](https://github.com/JustAnotherArchivist/snscrape)
@@ -12,6 +12,7 @@ This pipeline consists in:
 
 In this project I use two different group of tweets: tweets from @IbaiLlanos and spanish tweets with the keyword 'netflix'. <br>
 **App in spanish deployed on** https://tfm-marc.herokuapp.com/
+![example_image](Ibai_example.png)
 
 ## Repository structure
 * **app** contains scripts to deploy streamlit's app in Heroku
