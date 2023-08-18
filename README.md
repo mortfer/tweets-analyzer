@@ -11,7 +11,7 @@ This pipeline consists in:
 * Build an interactive app with [streamlit](https://streamlit.io/) and [plotly](https://plotly.com/python/)
 
 In this project I use two different group of tweets: tweets from @IbaiLlanos and spanish tweets with the keyword 'netflix'. <br>
-**App in spanish deployed on** https://tfm-marc.herokuapp.com/
+**App in spanish deployed on** https://tweets-visualizer.streamlit.app/
 
 <img src="https://github.com/mortfer/TFM/blob/master/Ibai_example.png" width="850"/>
 
